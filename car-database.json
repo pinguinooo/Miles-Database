@@ -1,0 +1,881 @@
+{
+  "years": [
+    2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009,
+    2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019,
+    2020, 2021, 2022, 2023, 2024, 2025
+  ],
+  "makes": [
+    {
+      "id": 1,
+      "name": "Acura",
+      "slug": "acura"
+    },
+    {
+      "id": 2,
+      "name": "Audi",
+      "slug": "audi"
+    },
+    {
+      "id": 3,
+      "name": "BMW",
+      "slug": "bmw"
+    },
+    {
+      "id": 4,
+      "name": "Buick",
+      "slug": "buick"
+    },
+    {
+      "id": 5,
+      "name": "Cadillac",
+      "slug": "cadillac"
+    },
+    {
+      "id": 6,
+      "name": "Chevrolet",
+      "slug": "chevrolet"
+    },
+    {
+      "id": 7,
+      "name": "Chrysler",
+      "slug": "chrysler"
+    },
+    {
+      "id": 8,
+      "name": "Dodge",
+      "slug": "dodge"
+    },
+    {
+      "id": 9,
+      "name": "Ford",
+      "slug": "ford"
+    },
+    {
+      "id": 10,
+      "name": "GMC",
+      "slug": "gmc"
+    },
+    {
+      "id": 11,
+      "name": "Honda",
+      "slug": "honda"
+    },
+    {
+      "id": 12,
+      "name": "Hyundai",
+      "slug": "hyundai"
+    },
+    {
+      "id": 13,
+      "name": "Infiniti",
+      "slug": "infiniti"
+    },
+    {
+      "id": 14,
+      "name": "Jeep",
+      "slug": "jeep"
+    },
+    {
+      "id": 15,
+      "name": "Kia",
+      "slug": "kia"
+    },
+    {
+      "id": 16,
+      "name": "Lexus",
+      "slug": "lexus"
+    },
+    {
+      "id": 17,
+      "name": "Lincoln",
+      "slug": "lincoln"
+    },
+    {
+      "id": 18,
+      "name": "Mazda",
+      "slug": "mazda"
+    },
+    {
+      "id": 19,
+      "name": "Mercedes-Benz",
+      "slug": "mercedes-benz"
+    },
+    {
+      "id": 20,
+      "name": "Nissan",
+      "slug": "nissan"
+    },
+    {
+      "id": 21,
+      "name": "Ram",
+      "slug": "ram"
+    },
+    {
+      "id": 22,
+      "name": "Subaru",
+      "slug": "subaru"
+    },
+    {
+      "id": 23,
+      "name": "Tesla",
+      "slug": "tesla"
+    },
+    {
+      "id": 24,
+      "name": "Toyota",
+      "slug": "toyota"
+    },
+    {
+      "id": 25,
+      "name": "Volkswagen",
+      "slug": "volkswagen"
+    },
+    {
+      "id": 26,
+      "name": "Volvo",
+      "slug": "volvo"
+    }
+  ],
+  "models": [
+    {
+      "id": 1,
+      "makeId": 1,
+      "name": "MDX",
+      "slug": "mdx"
+    },
+    {
+      "id": 2,
+      "makeId": 1,
+      "name": "RDX",
+      "slug": "rdx"
+    },
+    {
+      "id": 3,
+      "makeId": 1,
+      "name": "TLX",
+      "slug": "tlx"
+    },
+    {
+      "id": 4,
+      "makeId": 2,
+      "name": "A4",
+      "slug": "a4"
+    },
+    {
+      "id": 5,
+      "makeId": 2,
+      "name": "A6",
+      "slug": "a6"
+    },
+    {
+      "id": 6,
+      "makeId": 2,
+      "name": "Q5",
+      "slug": "q5"
+    },
+    {
+      "id": 7,
+      "makeId": 2,
+      "name": "Q7",
+      "slug": "q7"
+    },
+    {
+      "id": 8,
+      "makeId": 3,
+      "name": "3 Series",
+      "slug": "3-series"
+    },
+    {
+      "id": 9,
+      "makeId": 3,
+      "name": "5 Series",
+      "slug": "5-series"
+    },
+    {
+      "id": 10,
+      "makeId": 3,
+      "name": "X3",
+      "slug": "x3"
+    },
+    {
+      "id": 11,
+      "makeId": 3,
+      "name": "X5",
+      "slug": "x5"
+    },
+    {
+      "id": 12,
+      "makeId": 6,
+      "name": "Silverado",
+      "slug": "silverado"
+    },
+    {
+      "id": 13,
+      "makeId": 6,
+      "name": "Equinox",
+      "slug": "equinox"
+    },
+    {
+      "id": 14,
+      "makeId": 6,
+      "name": "Tahoe",
+      "slug": "tahoe"
+    },
+    {
+      "id": 15,
+      "makeId": 6,
+      "name": "Suburban",
+      "slug": "suburban"
+    },
+    {
+      "id": 16,
+      "makeId": 6,
+      "name": "Malibu",
+      "slug": "malibu"
+    },
+    {
+      "id": 17,
+      "makeId": 6,
+      "name": "Camaro",
+      "slug": "camaro"
+    },
+    {
+      "id": 18,
+      "makeId": 6,
+      "name": "Corvette",
+      "slug": "corvette"
+    },
+    {
+      "id": 19,
+      "makeId": 8,
+      "name": "Ram 1500",
+      "slug": "ram-1500"
+    },
+    {
+      "id": 20,
+      "makeId": 8,
+      "name": "Charger",
+      "slug": "charger"
+    },
+    {
+      "id": 21,
+      "makeId": 8,
+      "name": "Challenger",
+      "slug": "challenger"
+    },
+    {
+      "id": 22,
+      "makeId": 8,
+      "name": "Durango",
+      "slug": "durango"
+    },
+    {
+      "id": 23,
+      "makeId": 9,
+      "name": "F-150",
+      "slug": "f-150"
+    },
+    {
+      "id": 24,
+      "makeId": 9,
+      "name": "Explorer",
+      "slug": "explorer"
+    },
+    {
+      "id": 25,
+      "makeId": 9,
+      "name": "Escape",
+      "slug": "escape"
+    },
+    {
+      "id": 26,
+      "makeId": 9,
+      "name": "Mustang",
+      "slug": "mustang"
+    },
+    {
+      "id": 27,
+      "makeId": 9,
+      "name": "Edge",
+      "slug": "edge"
+    },
+    {
+      "id": 28,
+      "makeId": 9,
+      "name": "Expedition",
+      "slug": "expedition"
+    },
+    {
+      "id": 29,
+      "makeId": 10,
+      "name": "Sierra",
+      "slug": "sierra"
+    },
+    {
+      "id": 30,
+      "makeId": 10,
+      "name": "Yukon",
+      "slug": "yukon"
+    },
+    {
+      "id": 31,
+      "makeId": 10,
+      "name": "Acadia",
+      "slug": "acadia"
+    },
+    {
+      "id": 32,
+      "makeId": 11,
+      "name": "Civic",
+      "slug": "civic"
+    },
+    {
+      "id": 33,
+      "makeId": 11,
+      "name": "Accord",
+      "slug": "accord"
+    },
+    {
+      "id": 34,
+      "makeId": 11,
+      "name": "CR-V",
+      "slug": "cr-v"
+    },
+    {
+      "id": 35,
+      "makeId": 11,
+      "name": "Pilot",
+      "slug": "pilot"
+    },
+    {
+      "id": 36,
+      "makeId": 12,
+      "name": "Elantra",
+      "slug": "elantra"
+    },
+    {
+      "id": 37,
+      "makeId": 12,
+      "name": "Sonata",
+      "slug": "sonata"
+    },
+    {
+      "id": 38,
+      "makeId": 12,
+      "name": "Tucson",
+      "slug": "tucson"
+    },
+    {
+      "id": 39,
+      "makeId": 12,
+      "name": "Santa Fe",
+      "slug": "santa-fe"
+    },
+    {
+      "id": 40,
+      "makeId": 14,
+      "name": "Wrangler",
+      "slug": "wrangler"
+    },
+    {
+      "id": 41,
+      "makeId": 14,
+      "name": "Grand Cherokee",
+      "slug": "grand-cherokee"
+    },
+    {
+      "id": 42,
+      "makeId": 14,
+      "name": "Cherokee",
+      "slug": "cherokee"
+    },
+    {
+      "id": 43,
+      "makeId": 15,
+      "name": "Sorento",
+      "slug": "sorento"
+    },
+    {
+      "id": 44,
+      "makeId": 15,
+      "name": "Sportage",
+      "slug": "sportage"
+    },
+    {
+      "id": 45,
+      "makeId": 15,
+      "name": "Telluride",
+      "slug": "telluride"
+    },
+    {
+      "id": 46,
+      "makeId": 16,
+      "name": "RX",
+      "slug": "rx"
+    },
+    {
+      "id": 47,
+      "makeId": 16,
+      "name": "ES",
+      "slug": "es"
+    },
+    {
+      "id": 48,
+      "makeId": 16,
+      "name": "NX",
+      "slug": "nx"
+    },
+    {
+      "id": 49,
+      "makeId": 18,
+      "name": "CX-5",
+      "slug": "cx-5"
+    },
+    {
+      "id": 50,
+      "makeId": 18,
+      "name": "CX-9",
+      "slug": "cx-9"
+    },
+    {
+      "id": 51,
+      "makeId": 18,
+      "name": "Mazda3",
+      "slug": "mazda3"
+    },
+    {
+      "id": 52,
+      "makeId": 19,
+      "name": "C-Class",
+      "slug": "c-class"
+    },
+    {
+      "id": 53,
+      "makeId": 19,
+      "name": "E-Class",
+      "slug": "e-class"
+    },
+    {
+      "id": 54,
+      "makeId": 19,
+      "name": "GLE",
+      "slug": "gle"
+    },
+    {
+      "id": 55,
+      "makeId": 19,
+      "name": "GLC",
+      "slug": "glc"
+    },
+    {
+      "id": 56,
+      "makeId": 20,
+      "name": "Altima",
+      "slug": "altima"
+    },
+    {
+      "id": 57,
+      "makeId": 20,
+      "name": "Sentra",
+      "slug": "sentra"
+    },
+    {
+      "id": 58,
+      "makeId": 20,
+      "name": "Rogue",
+      "slug": "rogue"
+    },
+    {
+      "id": 59,
+      "makeId": 20,
+      "name": "Pathfinder",
+      "slug": "pathfinder"
+    },
+    {
+      "id": 60,
+      "makeId": 21,
+      "name": "1500",
+      "slug": "1500"
+    },
+    {
+      "id": 61,
+      "makeId": 21,
+      "name": "2500",
+      "slug": "2500"
+    },
+    {
+      "id": 62,
+      "makeId": 21,
+      "name": "3500",
+      "slug": "3500"
+    },
+    {
+      "id": 63,
+      "makeId": 22,
+      "name": "Outback",
+      "slug": "outback"
+    },
+    {
+      "id": 64,
+      "makeId": 22,
+      "name": "Forester",
+      "slug": "forester"
+    },
+    {
+      "id": 65,
+      "makeId": 22,
+      "name": "Crosstrek",
+      "slug": "crosstrek"
+    },
+    {
+      "id": 66,
+      "makeId": 23,
+      "name": "Model 3",
+      "slug": "model-3"
+    },
+    {
+      "id": 67,
+      "makeId": 23,
+      "name": "Model Y",
+      "slug": "model-y"
+    },
+    {
+      "id": 68,
+      "makeId": 23,
+      "name": "Model S",
+      "slug": "model-s"
+    },
+    {
+      "id": 69,
+      "makeId": 23,
+      "name": "Model X",
+      "slug": "model-x"
+    },
+    {
+      "id": 70,
+      "makeId": 24,
+      "name": "Camry",
+      "slug": "camry"
+    },
+    {
+      "id": 71,
+      "makeId": 24,
+      "name": "Corolla",
+      "slug": "corolla"
+    },
+    {
+      "id": 72,
+      "makeId": 24,
+      "name": "RAV4",
+      "slug": "rav4"
+    },
+    {
+      "id": 73,
+      "makeId": 24,
+      "name": "Highlander",
+      "slug": "highlander"
+    },
+    {
+      "id": 74,
+      "makeId": 24,
+      "name": "4Runner",
+      "slug": "4runner"
+    },
+    {
+      "id": 75,
+      "makeId": 24,
+      "name": "Tacoma",
+      "slug": "tacoma"
+    },
+    {
+      "id": 76,
+      "makeId": 24,
+      "name": "Tundra",
+      "slug": "tundra"
+    },
+    {
+      "id": 77,
+      "makeId": 25,
+      "name": "Jetta",
+      "slug": "jetta"
+    },
+    {
+      "id": 78,
+      "makeId": 25,
+      "name": "Passat",
+      "slug": "passat"
+    },
+    {
+      "id": 79,
+      "makeId": 25,
+      "name": "Tiguan",
+      "slug": "tiguan"
+    },
+    {
+      "id": 80,
+      "makeId": 25,
+      "name": "Atlas",
+      "slug": "atlas"
+    },
+    {
+      "id": 81,
+      "makeId": 26,
+      "name": "XC90",
+      "slug": "xc90"
+    },
+    {
+      "id": 82,
+      "makeId": 26,
+      "name": "XC60",
+      "slug": "xc60"
+    },
+    {
+      "id": 83,
+      "makeId": 26,
+      "name": "S90",
+      "slug": "s90"
+    }
+  ],
+  "trims": [
+    {
+      "id": 1,
+      "modelId": 23,
+      "name": "XL",
+      "slug": "xl"
+    },
+    {
+      "id": 2,
+      "modelId": 23,
+      "name": "XLT",
+      "slug": "xlt"
+    },
+    {
+      "id": 3,
+      "modelId": 23,
+      "name": "Lariat",
+      "slug": "lariat"
+    },
+    {
+      "id": 4,
+      "modelId": 23,
+      "name": "King Ranch",
+      "slug": "king-ranch"
+    },
+    {
+      "id": 5,
+      "modelId": 23,
+      "name": "Platinum",
+      "slug": "platinum"
+    },
+    {
+      "id": 6,
+      "modelId": 23,
+      "name": "Limited",
+      "slug": "limited"
+    },
+    {
+      "id": 7,
+      "modelId": 23,
+      "name": "Raptor",
+      "slug": "raptor"
+    },
+    {
+      "id": 8,
+      "modelId": 26,
+      "name": "EcoBoost",
+      "slug": "ecoboost"
+    },
+    {
+      "id": 9,
+      "modelId": 26,
+      "name": "GT",
+      "slug": "gt"
+    },
+    {
+      "id": 10,
+      "modelId": 26,
+      "name": "Shelby GT500",
+      "slug": "shelby-gt500"
+    },
+    {
+      "id": 11,
+      "modelId": 32,
+      "name": "LX",
+      "slug": "lx"
+    },
+    {
+      "id": 12,
+      "modelId": 32,
+      "name": "EX",
+      "slug": "ex"
+    },
+    {
+      "id": 13,
+      "modelId": 32,
+      "name": "EX-L",
+      "slug": "ex-l"
+    },
+    {
+      "id": 14,
+      "modelId": 32,
+      "name": "Sport",
+      "slug": "sport"
+    },
+    {
+      "id": 15,
+      "modelId": 32,
+      "name": "Si",
+      "slug": "si"
+    },
+    {
+      "id": 16,
+      "modelId": 32,
+      "name": "Type R",
+      "slug": "type-r"
+    },
+    {
+      "id": 17,
+      "modelId": 33,
+      "name": "LX",
+      "slug": "lx"
+    },
+    {
+      "id": 18,
+      "modelId": 33,
+      "name": "EX",
+      "slug": "ex"
+    },
+    {
+      "id": 19,
+      "modelId": 33,
+      "name": "EX-L",
+      "slug": "ex-l"
+    },
+    {
+      "id": 20,
+      "modelId": 33,
+      "name": "Sport",
+      "slug": "sport"
+    },
+    {
+      "id": 21,
+      "modelId": 33,
+      "name": "Touring",
+      "slug": "touring"
+    },
+    {
+      "id": 22,
+      "modelId": 70,
+      "name": "LE",
+      "slug": "le"
+    },
+    {
+      "id": 23,
+      "modelId": 70,
+      "name": "SE",
+      "slug": "se"
+    },
+    {
+      "id": 24,
+      "modelId": 70,
+      "name": "XLE",
+      "slug": "xle"
+    },
+    {
+      "id": 25,
+      "modelId": 70,
+      "name": "XSE",
+      "slug": "xse"
+    },
+    {
+      "id": 26,
+      "modelId": 70,
+      "name": "TRD",
+      "slug": "trd"
+    },
+    {
+      "id": 27,
+      "modelId": 72,
+      "name": "LE",
+      "slug": "le"
+    },
+    {
+      "id": 28,
+      "modelId": 72,
+      "name": "XLE",
+      "slug": "xle"
+    },
+    {
+      "id": 29,
+      "modelId": 72,
+      "name": "XLE Premium",
+      "slug": "xle-premium"
+    },
+    {
+      "id": 30,
+      "modelId": 72,
+      "name": "Limited",
+      "slug": "limited"
+    },
+    {
+      "id": 31,
+      "modelId": 72,
+      "name": "TRD Off-Road",
+      "slug": "trd-off-road"
+    },
+    {
+      "id": 32,
+      "modelId": 66,
+      "name": "Standard Range",
+      "slug": "standard-range"
+    },
+    {
+      "id": 33,
+      "modelId": 66,
+      "name": "Long Range",
+      "slug": "long-range"
+    },
+    {
+      "id": 34,
+      "modelId": 66,
+      "name": "Performance",
+      "slug": "performance"
+    },
+    {
+      "id": 35,
+      "modelId": 67,
+      "name": "Long Range",
+      "slug": "long-range"
+    },
+    {
+      "id": 36,
+      "modelId": 67,
+      "name": "Performance",
+      "slug": "performance"
+    },
+    {
+      "id": 37,
+      "modelId": 8,
+      "name": "320i",
+      "slug": "320i"
+    },
+    {
+      "id": 38,
+      "modelId": 8,
+      "name": "330i",
+      "slug": "330i"
+    },
+    {
+      "id": 39,
+      "modelId": 8,
+      "name": "M340i",
+      "slug": "m340i"
+    },
+    {
+      "id": 40,
+      "modelId": 8,
+      "name": "M3",
+      "slug": "m3"
+    }
+  ]
+}
