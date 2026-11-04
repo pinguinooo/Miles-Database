@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "database_version": 56,
+  "version_string": "2026.1.19",
+  "published_at": "2026-11-02T15:20:24Z",
+  "min_supported_app_version": "1.0.0",
+  "download_url": "https://db.trackmiles.app/miles.db?v=0cae9c2e35baf12ec7dc3bda33b33298851d6b1083c064bed0402e42ca51f05e&e=1794412800&s=0af759b413074572cc08fc2ce8d10727e420bed4a0a04250ff7f810545e83c87",
+  "file_size_bytes": 13967360,
+  "sha256": "0cae9c2e35baf12ec7dc3bda33b33298851d6b1083c064bed0402e42ca51f05e",
+  "changelog": [],
+  "required_update": false,
+  "min_required_database_version": 0,
+  "notes": ""
+}
